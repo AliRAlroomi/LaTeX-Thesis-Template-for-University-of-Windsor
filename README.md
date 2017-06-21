@@ -1,6 +1,6 @@
 # LaTeX-Thesis-Template-for-University-of-Windsor
 This Thesis Template is created by me as a tool to help graduate students of the University of Windsor in writing their theses and dissertations
-It is based on the university standard class [http://rcim.ca/Resources.shtml], which is shown below:
+It is based on the university standard class [http://rcim.ca/Resources.shtml] created by Till Kuendiger, which is shown below and attached in this project:
 
 								A Thesis Document Class
 				Research Centre for Integrated Microsystems
