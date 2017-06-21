@@ -1,0 +1,133 @@
+% This Thesis Template is created by Ali R. Al-Roomi [www.al-roomi.org] as a tool to help graduate students of the University of Windsor in writing their theses and dissertations
+% It is based on the university standard class [http://rcim.ca/Resources.shtml]
+
+% For any further help or comment, please contact me on: http://al-roomi.org/contactme
+
+\documentclass[options]{vlsithesis}
+
+
+\renewcommand{\lspacing}{1.35}
+\ssp	%for single spacing
+%\dsp	%for `lspacing` spacing
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% FRONTMATTER - In this section, specify information to be used to typeset the thesis frontmatter.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+	
+% The number of committee members, this field may range from 1 to 6.
+\numberofmembers{3}
+
+%The names of respective committe members. These field may be left empty
+\membera{Prpf. S. W. Daniel}
+\memberb{Prof. E. Q. Mohammed}
+\memberc{Dr. S. T. Ali}
+	
+% The departments of the respective committe members.  These field may be left empty
+\depta{Department of Electrical and Computer Engineering}
+\deptb{Department of Electrical and Computer Engineering}
+\deptc{Department of Mechanical, Automotive and Materials Engineering}
+	
+% The current year.
+\year{2017}
+	
+% The scheduled date of the defense.
+\defensedate{12th of July, 2017}
+
+
+
+
+\makeatother
+\begin{document}
+
+\frontmatter
+
+
+
+% Specify the title. Set the capitalization how you want it.
+\title{This is the Title of My Thesis}
+
+% Your name goes here.
+\author{Author's Name}
+
+\degree{Master of Applied Science}
+
+% This should be either Thesis or Dissertation
+\doctype{Thesis}
+
+\maketitle
+
+
+%New Commands
+%------------
+
+% Generates a copyright page.  This sould be used in the front matter.
+\makecopyright
+
+% This generates the approval page.  Should be used in the front matter.
+\makeapproval
+
+% Thesis Abstract
+%\chapterabstract{In the last century, the scientists found many relations between X and Y.... }
+%\chapter{Abstract}
+%
+
+\begin{chapterabstract} \ In the last century, the scientists found many relations between X and Y
+\end{chapterabstract}
+
+
+%New Environments
+%----------------
+
+
+%Dedications:  This environment correctly setups a dedication's page.  It is assumed that the dedication will fit within one page of text.
+%
+%Example useage:
+\begin{dedication}
+\vspace*{2.5in}
+To me, the only person worth my company
+\vfill
+\end{dedication}
+
+
+% Acknowledgement using dedication environment 
+\begin{dedication}
+\vspace*{2.5in}
+In these lines I want to express my sincere thanks to Prof.......
+\vfill
+\end{dedication}
+
+
+%Vita Auctoris: This environment is to be used for the Vita Auctoris.  It is to be the last page/section in the Thesis (after all other backmatter).
+%
+%Example usage:
+\begin{vita}
+Marry scott was born in 1976 in Windsor, Ontario. She ....
+\end{vita}
+
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+
+
+
+
+% This command lets the user enter a small abstract that will be included in the chapter mark/heading.  If desired it should be executed prior to the \chapter command which should contain the text. e.g.:
+\chapterabstract{This chapter covers the phenomena of...}
+\chapter{Introduction}
+\pagenumbering{arabic} % will change the numbering style to Arabic numbers >> just for this chapter
+
+In 1960s, Arthur W. Salmon was searching on 
+
+
+
+\chapterabstract{This chapter covers the realistic and empirical relations of...}
+\chapter{Mathematical Backgrounds}
+
+Referring to the work done by Daniel S. Wood, the following...
+
+
+\end{document}
